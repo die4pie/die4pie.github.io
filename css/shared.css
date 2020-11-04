@@ -1,0 +1,110 @@
+/* =============================================================== */
+
+.bg-lshade   { background-color: #2C2D32; }
+.bg-dshade   { background-color: #2A2A2E; }
+.bg-laccent  { background-color: #8B8B8B; }
+.bg-main     { background-color: #FED777; }
+
+/* ----------------------------------------------- */
+
+.text-lshade   { color: #2C2D32; }
+.text-dshade   { color: #2A2A2E; }
+.text-laccent  { color: #8B8B8B; }
+.text-main     { color: #FED777; }
+
+/* ----------------------------------------------- */
+
+.boxShadow-lshade   { box-shadow: 0 0 5px 7px #2C2D32; }
+.boxShadow-dshade   { box-shadow: 0 0 5px 7px #2A2A2E; }
+.boxShadow-laccent  { box-shadow: 0 0 5px 7px #8B8B8B; }
+.boxShadow-main     { box-shadow: 0 0 5px 7px #FED777; }
+
+/* ----------------------------------------------- */
+
+.border-lshade   { border: 1px solid #2C2D32; }
+.border-dshade   { border: 1px solid #2A2A2E; }
+.border-laccent  { border: 1px solid #8B8B8B; }
+.border-main     { border: 1px solid #FED777; }
+
+/* =============================================================== */
+
+ /* Images */
+ .image-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-background-fixed {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+/* hr */
+
+.hr-main {
+    width: 50%;
+    background-color: #FED777;
+}
+
+.hr-laccent {
+    width: 50%;
+    background-color: #8B8B8B;
+}
+
+/* li */
+
+.li-nodot { 
+    list-style-type: none;
+}
+
+/* Center Content */
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-center-vertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.margin-none {
+    margin: 0;
+}
+
+.padding-none {
+    padding: 0;
+}
+
+/* Website Specific Shared */
+
+.button {
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #FED777;
+    color: #FED777;
+    transition: all 1s;
+}
+
+.greyscale {
+    filter: grayscale(100%);
+}
+
+.bg-faded {
+    background-color: #2C2D32bb;
+}
+/* =============================================================== */
+
+.bg-0{background-color:#000000}.text-0{color:#000000}.bg-1{background-color:#111111}.text-1{color:#111111}.bg-2{background-color:#222222}.text-2{color:#222222}.bg-3{background-color:#333333}.text-3{color:#333333}.bg-4{background-color:#444444}.text-4{color:#444444}.bg-5{background-color:#555555}.text-5{color:#555555}.bg-6{background-color:#666666}.text-6{color:#666666}.bg-7{background-color:#777777}.text-7{color:#777777}.bg-8{background-color:#888888}.text-8{color:#888888}.bg-9{background-color:#999999}.text-9{color:#999999}.bg-a{background-color:#aaaaaa}.text-a{color:#aaaaaa}.bg-b{background-color:#bbbbbb}.text-b{color:#bbbbbb}.bg-c{background-color:#cccccc}.text-c{color:#cccccc}.bg-d{background-color:#dddddd}.text-d{color:#dddddd}.bg-e{background-color:#eeeeee}.text-e{color:#eeeeee}.bg-f{background-color:#ffffff}.text-f{color:#ffffff}.w1p{width:1%;}.w1vw{width:1vw;}.h1p{height:1%;}.h1vh{height:1vh;}.w2p{width:2%;}.w2vw{width:2vw;}.h2p{height:2%;}.h2vh{height:2vh;}.w3p{width:3%;}.w3vw{width:3vw;}.h3p{height:3%;}.h3vh{height:3vh;}.w4p{width:4%;}.w4vw{width:4vw;}.h4p{height:4%;}.h4vh{height:4vh;}.w5p{width:5%;}.w5vw{width:5vw;}.h5p{height:5%;}.h5vh{height:5vh;}.w6p{width:6%;}.w6vw{width:6vw;}.h6p{height:6%;}.h6vh{height:6vh;}.w7p{width:7%;}.w7vw{width:7vw;}.h7p{height:7%;}.h7vh{height:7vh;}.w8p{width:8%;}.w8vw{width:8vw;}.h8p{height:8%;}.h8vh{height:8vh;}.w9p{width:9%;}.w9vw{width:9vw;}.h9p{height:9%;}.h9vh{height:9vh;}.w10p{width:10%;}.w10vw{width:10vw;}.h10p{height:10%;}.h10vh{height:10vh;}.w11p{width:11%;}.w11vw{width:11vw;}.h11p{height:11%;}.h11vh{height:11vh;}.w12p{width:12%;}.w12vw{width:12vw;}.h12p{height:12%;}.h12vh{height:12vh;}.w13p{width:13%;}.w13vw{width:13vw;}.h13p{height:13%;}.h13vh{height:13vh;}.w14p{width:14%;}.w14vw{width:14vw;}.h14p{height:14%;}.h14vh{height:14vh;}.w15p{width:15%;}.w15vw{width:15vw;}.h15p{height:15%;}.h15vh{height:15vh;}.w16p{width:16%;}.w16vw{width:16vw;}.h16p{height:16%;}.h16vh{height:16vh;}.w17p{width:17%;}.w17vw{width:17vw;}.h17p{height:17%;}.h17vh{height:17vh;}.w18p{width:18%;}.w18vw{width:18vw;}.h18p{height:18%;}.h18vh{height:18vh;}.w19p{width:19%;}.w19vw{width:19vw;}.h19p{height:19%;}.h19vh{height:19vh;}.w20p{width:20%;}.w20vw{width:20vw;}.h20p{height:20%;}.h20vh{height:20vh;}.w21p{width:21%;}.w21vw{width:21vw;}.h21p{height:21%;}.h21vh{height:21vh;}.w22p{width:22%;}.w22vw{width:22vw;}.h22p{height:22%;}.h22vh{height:22vh;}.w23p{width:23%;}.w23vw{width:23vw;}.h23p{height:23%;}.h23vh{height:23vh;}.w24p{width:24%;}.w24vw{width:24vw;}.h24p{height:24%;}.h24vh{height:24vh;}.w25p{width:25%;}.w25vw{width:25vw;}.h25p{height:25%;}.h25vh{height:25vh;}.w26p{width:26%;}.w26vw{width:26vw;}.h26p{height:26%;}.h26vh{height:26vh;}.w27p{width:27%;}.w27vw{width:27vw;}.h27p{height:27%;}.h27vh{height:27vh;}.w28p{width:28%;}.w28vw{width:28vw;}.h28p{height:28%;}.h28vh{height:28vh;}.w29p{width:29%;}.w29vw{width:29vw;}.h29p{height:29%;}.h29vh{height:29vh;}.w30p{width:30%;}.w30vw{width:30vw;}.h30p{height:30%;}.h30vh{height:30vh;}.w31p{width:31%;}.w31vw{width:31vw;}.h31p{height:31%;}.h31vh{height:31vh;}.w32p{width:32%;}.w32vw{width:32vw;}.h32p{height:32%;}.h32vh{height:32vh;}.w33p{width:33%;}.w33vw{width:33vw;}.h33p{height:33%;}.h33vh{height:33vh;}.w34p{width:34%;}.w34vw{width:34vw;}.h34p{height:34%;}.h34vh{height:34vh;}.w35p{width:35%;}.w35vw{width:35vw;}.h35p{height:35%;}.h35vh{height:35vh;}.w36p{width:36%;}.w36vw{width:36vw;}.h36p{height:36%;}.h36vh{height:36vh;}.w37p{width:37%;}.w37vw{width:37vw;}.h37p{height:37%;}.h37vh{height:37vh;}.w38p{width:38%;}.w38vw{width:38vw;}.h38p{height:38%;}.h38vh{height:38vh;}.w39p{width:39%;}.w39vw{width:39vw;}.h39p{height:39%;}.h39vh{height:39vh;}.w40p{width:40%;}.w40vw{width:40vw;}.h40p{height:40%;}.h40vh{height:40vh;}.w41p{width:41%;}.w41vw{width:41vw;}.h41p{height:41%;}.h41vh{height:41vh;}.w42p{width:42%;}.w42vw{width:42vw;}.h42p{height:42%;}.h42vh{height:42vh;}.w43p{width:43%;}.w43vw{width:43vw;}.h43p{height:43%;}.h43vh{height:43vh;}.w44p{width:44%;}.w44vw{width:44vw;}.h44p{height:44%;}.h44vh{height:44vh;}.w45p{width:45%;}.w45vw{width:45vw;}.h45p{height:45%;}.h45vh{height:45vh;}.w46p{width:46%;}.w46vw{width:46vw;}.h46p{height:46%;}.h46vh{height:46vh;}.w47p{width:47%;}.w47vw{width:47vw;}.h47p{height:47%;}.h47vh{height:47vh;}.w48p{width:48%;}.w48vw{width:48vw;}.h48p{height:48%;}.h48vh{height:48vh;}.w49p{width:49%;}.w49vw{width:49vw;}.h49p{height:49%;}.h49vh{height:49vh;}.w50p{width:50%;}.w50vw{width:50vw;}.h50p{height:50%;}.h50vh{height:50vh;}.w51p{width:51%;}.w51vw{width:51vw;}.h51p{height:51%;}.h51vh{height:51vh;}.w52p{width:52%;}.w52vw{width:52vw;}.h52p{height:52%;}.h52vh{height:52vh;}.w53p{width:53%;}.w53vw{width:53vw;}.h53p{height:53%;}.h53vh{height:53vh;}.w54p{width:54%;}.w54vw{width:54vw;}.h54p{height:54%;}.h54vh{height:54vh;}.w55p{width:55%;}.w55vw{width:55vw;}.h55p{height:55%;}.h55vh{height:55vh;}.w56p{width:56%;}.w56vw{width:56vw;}.h56p{height:56%;}.h56vh{height:56vh;}.w57p{width:57%;}.w57vw{width:57vw;}.h57p{height:57%;}.h57vh{height:57vh;}.w58p{width:58%;}.w58vw{width:58vw;}.h58p{height:58%;}.h58vh{height:58vh;}.w59p{width:59%;}.w59vw{width:59vw;}.h59p{height:59%;}.h59vh{height:59vh;}.w60p{width:60%;}.w60vw{width:60vw;}.h60p{height:60%;}.h60vh{height:60vh;}.w61p{width:61%;}.w61vw{width:61vw;}.h61p{height:61%;}.h61vh{height:61vh;}.w62p{width:62%;}.w62vw{width:62vw;}.h62p{height:62%;}.h62vh{height:62vh;}.w63p{width:63%;}.w63vw{width:63vw;}.h63p{height:63%;}.h63vh{height:63vh;}.w64p{width:64%;}.w64vw{width:64vw;}.h64p{height:64%;}.h64vh{height:64vh;}.w65p{width:65%;}.w65vw{width:65vw;}.h65p{height:65%;}.h65vh{height:65vh;}.w66p{width:66%;}.w66vw{width:66vw;}.h66p{height:66%;}.h66vh{height:66vh;}.w67p{width:67%;}.w67vw{width:67vw;}.h67p{height:67%;}.h67vh{height:67vh;}.w68p{width:68%;}.w68vw{width:68vw;}.h68p{height:68%;}.h68vh{height:68vh;}.w69p{width:69%;}.w69vw{width:69vw;}.h69p{height:69%;}.h69vh{height:69vh;}.w70p{width:70%;}.w70vw{width:70vw;}.h70p{height:70%;}.h70vh{height:70vh;}.w71p{width:71%;}.w71vw{width:71vw;}.h71p{height:71%;}.h71vh{height:71vh;}.w72p{width:72%;}.w72vw{width:72vw;}.h72p{height:72%;}.h72vh{height:72vh;}.w73p{width:73%;}.w73vw{width:73vw;}.h73p{height:73%;}.h73vh{height:73vh;}.w74p{width:74%;}.w74vw{width:74vw;}.h74p{height:74%;}.h74vh{height:74vh;}.w75p{width:75%;}.w75vw{width:75vw;}.h75p{height:75%;}.h75vh{height:75vh;}.w76p{width:76%;}.w76vw{width:76vw;}.h76p{height:76%;}.h76vh{height:76vh;}.w77p{width:77%;}.w77vw{width:77vw;}.h77p{height:77%;}.h77vh{height:77vh;}.w78p{width:78%;}.w78vw{width:78vw;}.h78p{height:78%;}.h78vh{height:78vh;}.w79p{width:79%;}.w79vw{width:79vw;}.h79p{height:79%;}.h79vh{height:79vh;}.w80p{width:80%;}.w80vw{width:80vw;}.h80p{height:80%;}.h80vh{height:80vh;}.w81p{width:81%;}.w81vw{width:81vw;}.h81p{height:81%;}.h81vh{height:81vh;}.w82p{width:82%;}.w82vw{width:82vw;}.h82p{height:82%;}.h82vh{height:82vh;}.w83p{width:83%;}.w83vw{width:83vw;}.h83p{height:83%;}.h83vh{height:83vh;}.w84p{width:84%;}.w84vw{width:84vw;}.h84p{height:84%;}.h84vh{height:84vh;}.w85p{width:85%;}.w85vw{width:85vw;}.h85p{height:85%;}.h85vh{height:85vh;}.w86p{width:86%;}.w86vw{width:86vw;}.h86p{height:86%;}.h86vh{height:86vh;}.w87p{width:87%;}.w87vw{width:87vw;}.h87p{height:87%;}.h87vh{height:87vh;}.w88p{width:88%;}.w88vw{width:88vw;}.h88p{height:88%;}.h88vh{height:88vh;}.w89p{width:89%;}.w89vw{width:89vw;}.h89p{height:89%;}.h89vh{height:89vh;}.w90p{width:90%;}.w90vw{width:90vw;}.h90p{height:90%;}.h90vh{height:90vh;}.w91p{width:91%;}.w91vw{width:91vw;}.h91p{height:91%;}.h91vh{height:91vh;}.w92p{width:92%;}.w92vw{width:92vw;}.h92p{height:92%;}.h92vh{height:92vh;}.w93p{width:93%;}.w93vw{width:93vw;}.h93p{height:93%;}.h93vh{height:93vh;}.w94p{width:94%;}.w94vw{width:94vw;}.h94p{height:94%;}.h94vh{height:94vh;}.w95p{width:95%;}.w95vw{width:95vw;}.h95p{height:95%;}.h95vh{height:95vh;}.w96p{width:96%;}.w96vw{width:96vw;}.h96p{height:96%;}.h96vh{height:96vh;}.w97p{width:97%;}.w97vw{width:97vw;}.h97p{height:97%;}.h97vh{height:97vh;}.w98p{width:98%;}.w98vw{width:98vw;}.h98p{height:98%;}.h98vh{height:98vh;}.w99p{width:99%;}.w99vw{width:99vw;}.h99p{height:99%;}.h99vh{height:99vh;}.w100p{width:100%;}.w100vw{width:100vw;}.h100p{height:100%;}.h100vh{height:100vh;}
+
+/* =============================================================== */
+
+/* ========================================================================= */

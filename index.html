@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/88e687c151.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Libs/bootstrap-4.5.2-dist/css/bootstrap.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/shared.css"/>
+    <link rel="stylesheet" href="./css/index-mobile.css">
+    <link rel="stylesheet" href="./css/index-computer.css">
+
+    <title>Redesigned</title>
+
+</head>
+<body class="bg-dshade">
+
+    <!-- Mobile Site -->
+    <div id="mobile-wrapper">
+
+      <div id="navbar-wrapper">
+        <span class="text-main" id="menu-hamburger" onclick="openNav()">&#9776;</span>
+      </div>
+
+      <div class="sidenav bg-faded content-center-vertical justify-content-around pt-5" id="navbar">
+        <a class="text-main" href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+        <a class="text-main active" href="#">Home</a>
+        <a class="text-main" href="#">Projects</a>
+        <a class="text-main" href="#">Testimonials</a>
+        <a class="text-main" href="#">TBD</a>
+        <a class="text-main" href="#">TBD</a>
+      </div>
+
+
+          <div class="h100vh w100p mobile-heroimage image-background-fixed greyscale content-center-vertical" id="section-herodiv">
+
+            <h1 class="text-main">Business Name</h1>
+            <p class="text-light">Some Sample Text Could Go Here Lad</p>
+            <button class="h5vh w50vw button mt-5" id="mobile-herobutton"><a href="./contact.html">Contact Us</a></button>
+
+          </div>
+
+          <div class="h100vh w100p mobile-heroimage image-background-fixed content-center-vertical" id="section-contactus">
+
+            <div class="h50vh w85p rounded content-center-vertical" id="wrapper-cardbackground">
+              <h1 class="text-main">Text Heading</h1>
+              <hr class="hr-main">
+              <p class="text-light text-center" id="section-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quas amet reprehenderit quod recusandae iusto corporis voluptatibus quidem aperiam eaque.</p>
+              <button class="h5vh w50vw button mt-5" id="mobile-herobutton">A Button</button>
+            </div>
+            
+          </div>
+
+          <div class="h65vh w100p image-background-fixed content-center-vertical" data-aos="fade-right" data-aos-delay="100"  id="section-projects">
+
+            <h1 class="text-light">Our Projects</h1>
+            
+            <div class="h10vh w90p my-3 project-movingimg image-background-fixed rounded" data-aos="fade-right" data-aos-delay="300"  id="project-movingimg-1"></div>
+            <div class="h10vh w90p my-3 project-movingimg image-background-fixed rounded" data-aos="fade-right" data-aos-delay="500"  id="project-movingimg-2"></div>
+            <div class="h10vh w90p my-3 project-movingimg image-background-fixed rounded" data-aos="fade-right" data-aos-delay="700"  id="project-movingimg-3"></div>
+            <div class="h10vh w90p my-3 project-movingimg image-background-fixed rounded" data-aos="fade-right" data-aos-delay="900"  id="project-movingimg-4"></div>
+            <div class="h10vh w90p my-3 project-movingimg image-background-fixed rounded" data-aos="fade-right" data-aos-delay="1100" id="project-movingimg-5"></div>
+            <div class="h10vh w90p my-3 project-movingimg image-background-fixed rounded" data-aos="fade-right" data-aos-delay="1300" id="project-movingimg-6"></div>
+            <button class="h7vh w90p bg-main image-background rounded mb-5" data-aos="fade-right" data-aos-delay="1500" id="project-button">A Button</button>
+
+            </div>
+            <div class="content-center" id="section-buttonWrapper">
+              
+            </div>
+
+            <div class="h100vh w100p bg-lshade image-background-fixed content-center-vertical" id="section-testimonials">
+
+              <div class="h30vh w75p bg-main image-background rounded content-center" id="testimonial-artstimgbg">
+  
+                <div class="h30vh w95p image-background rounded" id="testimonial-personimg"></div>
+  
+              </div>
+  
+              <div class="h20p w80p text-laccent text-center bg-dshade" id="testimonial-text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, est eveniet saepe vel odio aliquid impedit earum deserunt quod eaque, maxime facere quo at quaerat dicta nostrum mollitia ipsum quisquam!</p>
+                <p class="bg-dshade blockquote-footer mb-5" id="testimonial-quote">Name <cite title="Source Title">Occupation</cite></p>
+  
+                <button class="h6vh w75p button">A Button</button>
+              </div>
+  
+            </div>
+            
+          </div>
+
+<!-- ===================================================================================================================================================== -->
+
+          <!-- Computer Site -->
+  <div id="computer-wrapper">
+
+    <div class="content-center-vertical justify-content-around text-center" id="openNavScreen">
+
+      <h1 class="text-main">Quod scripsi, scripsi.</h1>
+
+      <ul class="text-c" id="openNavScreen-ul">
+          <li class="openNavScreen-li my-5 active"><a href="./index.html">Home Page</a></li>
+          <li class="openNavScreen-li my-5"><a href="#">View Projects</a></li>
+          <li class="openNavScreen-li my-5"><a href="#">Testimonials</a></li>
+      </ul>
+
+      <p class="bg-main text-4 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,nesciunt id accusamus velit vel incidunt!</p>
+
+  </div>
+
+
+  <div class="h100vh d-flex flex-column align-items-center" id="navbar">
+
+      <ul class="list-group" id="navbar-icons">
+
+          <li class="menu-icon fa-lg mt-5 ml-2">
+
+              <button class="h5vh w100p menu-btn" id="computer-menu-button"> <div class="menu-btn_burger" id="menu-dash"></div> </button>
+              <p id="computer-menu-buttontext">Menu</p>
+
+          </li>
+
+          <div class="h65vh"></div>
+
+          <div class="content-center-vertical" id="menu-icon-wrapper">
+
+              <li class="menu-icon"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="menu-icon"><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li class="menu-icon"><a href="#"><i class="fab fa-twitter"></i></a></li>
+
+          </div>
+      </ul>
+
+  </div>
+
+  <div id="computer-body-content">
+
+    <div class="content-center">
+      <div class="h93vh image-background-fixed heroimg computer-heroimg1 greyscale"></div>
+      <!-- <div class="h93vh image-background-fixed heroimg computer-heroimg2 greyscale"></div>
+      <div class="h93vh image-background-fixed heroimg computer-heroimg3 greyscale"></div> -->
+    </div>
+  
+    <div class="h7vh w100p bg-lshade" id="anchor-background">
+      
+      
+      <div class="h100p w20vw bg-dshade" id="anchor-scrolldown">
+        
+        <div class="h60p w7p" id="mouse">
+          <div class="" id="mouse-animation"></div>
+        </div>
+  
+        <div class="text-laccent" id="mouse-text">Scroll Down</div>
+      
+      </div>
+  
+      <div class="h100p w30p bg-lshade" id="anchor-quicklinks">
+  
+        <ul class=" h7vh content-center justify-content-around" id="anchor-parent">
+          <li class="anchor-point-text" id="contactus">Contact Us</li>
+          <li class="anchor-point-text" id="viewprojects">View Projects</li>
+          <li class="anchor-point-text" id="testimonials">Testimonials</li>
+        </ul>
+  
+      </div>
+    </div>
+  
+    <div class="h90vh" id="contact-section">
+  
+      <div class="content-center">
+  
+        <div class="h93vh image-background-fixed heroimg computer-heroimg1">
+
+          <div class="h100vh w30vw content-center-vertical" id="computer-contact-cardwrapper">
+            <h1 class="text-main m-5">Veni, vidi, vici</h1>
+            <hr class="hr-main"/>
+            <p class="text-light m-5"> Et Tu Brute?</p>
+  
+            <div class="h5p"></div>
+  
+           <div class="h20p w50p content-center-vertical" id="contact-button-wrapper" data-aos="fade-right">
+             <button class="h30p w50p button" id="contact-button">Contact Us</button>
+           </div>
+
+          </div>
+
+        </div>
+        <!-- <div class="h93vh image-background-fixed heroimg computer-heroimg2"></div> -->
+        
+        <!-- <div class="h93vh image-background-fixed heroimg computer-heroimg3 content-center-vertical">
+  
+          
+  
+        </div> -->
+  
+      </div>
+    </div>
+  
+    <div class="h90vh w100p" id="project-section">
+  
+      <div class="h55p w30p bg-lshade text-center content-center-vertical p-5" id="project-textbox" data-aos="fade-left">
+  
+        <div class="h10p"></div>
+  
+        <h1 class="text-light">Festina lente</h1>
+        <hr class="hr-faded"/>
+        
+        <p class="text-laccent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt consectetur ex neque ut perspiciatis fugiat.</p>
+
+        <div class="h20p"></div>
+  
+        <button class="h10p w50p bg-dshade text-main border-main" id="computer-project-button">View Projects</button>
+
+      </div>
+  
+      
+      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="300"  id="computer-project-movingimg-1"></div>
+      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="500"  id="computer-project-movingimg-2"></div>
+      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="700"  id="computer-project-movingimg-3"></div>
+      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="900"  id="computer-project-movingimg-4"></div>
+      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="1100" id="computer-project-movingimg-5"></div>
+      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="1300" id="computer-project-movingimg-6"></div>
+      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="300"  id="computer-project-movingimg-7"></div>
+      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="500"  id="computer-project-movingimg-8"></div>
+      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="700"  id="computer-project-movingimg-9"></div>
+      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="900"  id="computer-project-movingimg-10"></div>
+      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="1100" id="computer-project-movingimg-11"></div>
+
+    </div>
+
+
+    <div class="h90vh w100p" id="computer-testimonial-section">
+
+      <div class="h25vh w3p" id="computer-testimonial-block"></div>
+      <div class="h50p w30p" id="computer-testimonial-image"></div>
+
+      <div class="h100p w60p bg-main" id="computer-testimonial-artist-secondbg">
+        
+        <div class="h90p w92p bg-lshade rounded m-5 content-center justify-content-around" id="computer-testimonial-artist-focusbg">
+
+          <div class="h50p w45p bg-dshade text-center border-main content-center-vertical p-3" id="computer-testimonial-artist-text" data-aos="fade-up">
+            <h1 class="text-f mt-5">Si vis pacem, para bellum.</h1>
+            <hr class="hr-faded"/>
+            <p class="text-laccent">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto excepturi dolorum maiores numquam. Perferendis magnam perspiciatis quia aspernatur, culpa quaerat non eveniet sint vitae fugiat nobis magni voluptatem maiores eaque.</p>
+            <footer class="blockquote-footer">migas craft <cite title="Source Title">blue bottle</cite></footer>
+          </div>
+
+          <div class="h80p w50p image-background bg-main rounded" id="computer-testimonial-artist-img"></div>
+
+        </div>
+      
+      </div>
+
+    </div>
+
+    <footer class="h50vh bg-lshade">
+      <div class="h10vh w100p content-center">
+          <h6 class="text-main">Stay In Touch With Us On All Our Socials!</h6>
+          <div class="h5p content-center justify-content-around" id="socialmediaWrapper">
+              <i class="mx-4 fab text-1 fa-facebook-f"></i>
+              <i class="mx-4 fab text-1 fa-instagram"></i>
+              <i class="mx-4 fab text-1 fa-twitter"></i>
+          </div>
+      </div>
+
+      <div class="h50vh w100p bg-dshade text-f d-flex content-center justify-content-around">
+          
+          <div class="linkWrapper">
+              <h3>Company Name</h3>
+              <hr class="hr-footer">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+
+          <div class="linkWrapper">
+              <p>Quick Links</p>
+              <hr class="hr-footer">
+              <ul class="footer-links li-nodot">
+                  <li class="my-3"><a href="#">Home</a></li>
+                  <li class="my-3"><a href="#">Projects</a></li>
+                  <li class="my-3"><a href="#">Testimonials</a></li>
+
+              </ul>
+          </div>
+
+          <div class="linkWrapper">
+              <p>Contact Us</p>
+              <hr class="hr-footer">
+              <ul class="footer-links" >
+                  <p><i class="fas fa-home mr-3"></i> Brisbane, QLD 4077, AUS</p>
+                  <p id="footer-emailAddress"><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+                  <p><i class="fas fa-phone mr-3"></i> + 77 333 111 42</p>
+              </ul>
+          </div>
+
+          
+      </div>
+
+  </footer>
+
+  </div>
+  
+  
+
+
+  <!-- ===================================================================================================================================================== -->
+          
+
+<script src="./Libs/jquery-3.5.1.min.js"></script>
+<script src="./Libs/tether.min.js"></script>
+<script src="./Libs/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./js/index.js"></script>
+
+</body>
+</html>
+
+
+
+
+<!-- Old Navbar -->
+
+<!-- <div class="pos-f-t">
+
+  <div class="collapse" id="navbarToggleExternalContent">
+
+    <div class="h100vh bg-lshade">
+
+      <ul class="h100p w100p content-center-vertical justify-content-around padding-none" id="mobile-navlinks">
+          <a class="text-main mb-5" href="./index.html">Home</a>
+          <a class="text-main mb-5" href="#">Projects</a>
+          <a class="text-main mb-5" href="#">Testimonials</a>
+          <a class="text-main mb-5" href="#">Testimonials</a>
+          <a class="text-main mb-5" href="#">Testimonials</a>
+      </ul>
+
+    </div>
+
+  </div>
+
+  <nav class="navbar navbar-dark bg-daccent" id="mobile-navbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div> -->
