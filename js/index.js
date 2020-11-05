@@ -30,7 +30,7 @@ $(document).ready(()=> {
         {
             $("#openNavScreen").css("width", "36.5%");
             $("#navbar").css("zIndex", "101");
-            $("#computer-menu-buttontext").css("color", "#FED777");
+            $("#computer-menu-buttontext").css("color", "#AAF0D1");
             $("#openNavScreen").addClass(" openmenutransform");
             menuOpen = true;
         }

@@ -6,7 +6,7 @@
 
 a {
     text-decoration: none;
-    color: #FED777;
+    color: #AAF0D1;
 }
 
 a:hover {
@@ -15,7 +15,7 @@ a:hover {
 }
 
 .mobile-heroimage {
-    background-image: url('../images/1.jpg');
+    background-image: url('../images/index/1.jpg');
 }
 
 #section-projects {
@@ -24,7 +24,8 @@ a:hover {
 
 .project-movingimg {
     position: absolute;
-    background-image: url('../images/13.png');
+    background-image: url('../images/index/2.jpg');
+    background-position: 15%;
     animation: 3s ease-in-out alternate infinite;
 }
 
@@ -70,7 +71,7 @@ a:hover {
 }
 
 #testimonial-personimg {
-    background-image: url('../images/6.jpg');
+    background-image: url('../images/index/3.jpg');
     background-position: top;
 }
 

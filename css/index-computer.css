@@ -3,6 +3,7 @@
     * {
         margin: 0%;
         padding: 0%;
+        /* font-size: 1.05em; */
     }
 
     #mobile-wrapper {
@@ -23,9 +24,10 @@
     }
 
     .computer-heroimg1 { 
-        background-image: url('../images/25.jpg');
+        background-image: url('../images/index/1.jpg');
         background-position: 10% 50%;
     }
+
 
     /* .computer-heroimg2 { 
         background-image: url('../images/17.jpg');
@@ -54,9 +56,9 @@
         position: relative;
         top: 0;
         left: 43%;
-        height: 7px;
-        width: 3px;
-        background-color: #FED777;
+        height: 10px;
+        width: 5px;
+        background-color: #AAF0D1;
         border-radius: 30px;
         animation: mouseScroll 1.5s ease-in-out infinite;
     }
@@ -83,14 +85,14 @@
     
     .anchor-point-text:hover {
         cursor: pointer;
-        color: #FED777;
+        color: #AAF0D1;
     }
     
     .anchor-point-text::after {
         position: relative;
         top: 5%;
         left: 5%;
-        background: #FED777;
+        background: #AAF0D1;
         height: 10%;
         width: 10%;
     }
@@ -117,12 +119,16 @@
         color: #8B8B8B;
     }
 
+    #project-section {
+        position: relative;
+    }
+
 
     #project-textbox {
         position: relative;
         top: 28%;
         left: 60%;
-        border: 10px solid #FED777;
+        border: 10px solid #AAF0D1;
         border-radius: 20px;
     }
 
@@ -132,32 +138,38 @@
     }
 
     #computer-project-button:hover {
-        background-color: #FED777;
+        background-color: #AAF0D1;
         color: #2A2A2E;
         width: 100%;
         transition: all 0.5s;
     }
 
+    #computer-project-movingimg-wrapper {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+    }
+
     .computer-project-movingimg {
         position: relative;
-        top: -45%;
-        background-image: url('../images/13.png');
+        top: 0%;
+        background-image: url('../images/index/2.jpg');
         animation: 3s ease-in-out alternate infinite;
         border-radius: 50px;
     }
     
 
-    #computer-project-movingimg-1 { left: 5%; }
-    #computer-project-movingimg-2 { left: 6%; }
-    #computer-project-movingimg-3 { left: 7%; }
-    #computer-project-movingimg-4 { left: 8%; }
-    #computer-project-movingimg-5 { left: 9%; }
-    #computer-project-movingimg-6 { left: 10%; }
-    #computer-project-movingimg-7 { left: 9%; }
-    #computer-project-movingimg-8 { left: 8%; }
-    #computer-project-movingimg-9 { left: 7%; }
-    #computer-project-movingimg-10 { left: 6%; }
-    #computer-project-movingimg-11 { left: 5%; }
+    #computer-project-movingimg-1  { left: 5%;   }
+    #computer-project-movingimg-2  { left: 4.5%; }
+    #computer-project-movingimg-3  { left: 4%;   }
+    #computer-project-movingimg-4  { left: 3.5%; }
+    #computer-project-movingimg-5  { left: 3%;   }
+    #computer-project-movingimg-6  { left: 2.5%; }
+    #computer-project-movingimg-7  { left: 3%;   }
+    #computer-project-movingimg-8  { left: 3.5%; }
+    #computer-project-movingimg-9  { left: 4%;   }
+    #computer-project-movingimg-10 { left: 4.5%; }
+    #computer-project-movingimg-11 { left: 5%;   }
 
 
     #computer-testimonial-section {
@@ -166,7 +178,7 @@
     }
 
     #computer-testimonial-block {
-        background-color: #FED777;
+        background-color: #AAF0D1;
         position: absolute;
         top: 40%;
         left: 7%;
@@ -175,11 +187,12 @@
     }
 
     #computer-testimonial-image {
-        background-image: url('../images/7.jpg');
+        background-image: url('../images/index/3.jpg');
         background-attachment: local;
-        background-position: 30%, 50%;
+        background-position: 50%, 75%;
+        background-size: cover;
         border-radius: 10px;
-        border: 5px solid #FED777;
+        border: 5px solid #AAF0D1;
         position: absolute;
         top: 30%;
         left: 9%;
@@ -198,10 +211,12 @@
     }
 
     #computer-testimonial-artist-img {
-        background-image: url('../images/6.jpg');
+        background-image: url('../images/index/4.jpg');
     }
 
-
+    .fab:hover {
+        cursor: pointer;
+    }
 
 
     /* button {

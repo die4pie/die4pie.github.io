@@ -3,28 +3,28 @@
 .bg-lshade   { background-color: #2C2D32; }
 .bg-dshade   { background-color: #2A2A2E; }
 .bg-laccent  { background-color: #8B8B8B; }
-.bg-main     { background-color: #FED777; }
+.bg-main     { background-color: #AAF0D1; }
 
 /* ----------------------------------------------- */
 
 .text-lshade   { color: #2C2D32; }
 .text-dshade   { color: #2A2A2E; }
 .text-laccent  { color: #8B8B8B; }
-.text-main     { color: #FED777; }
+.text-main     { color: #AAF0D1; }
 
 /* ----------------------------------------------- */
 
 .boxShadow-lshade   { box-shadow: 0 0 5px 7px #2C2D32; }
 .boxShadow-dshade   { box-shadow: 0 0 5px 7px #2A2A2E; }
 .boxShadow-laccent  { box-shadow: 0 0 5px 7px #8B8B8B; }
-.boxShadow-main     { box-shadow: 0 0 5px 7px #FED777; }
+.boxShadow-main     { box-shadow: 0 0 5px 7px #AAF0D1; }
 
 /* ----------------------------------------------- */
 
 .border-lshade   { border: 1px solid #2C2D32; }
 .border-dshade   { border: 1px solid #2A2A2E; }
 .border-laccent  { border: 1px solid #8B8B8B; }
-.border-main     { border: 1px solid #FED777; }
+.border-main     { border: 1px solid #AAF0D1; }
 
 /* =============================================================== */
 
@@ -46,7 +46,7 @@
 
 .hr-main {
     width: 50%;
-    background-color: #FED777;
+    background-color: #AAF0D1;
 }
 
 .hr-laccent {
@@ -89,8 +89,8 @@
     border: none;
     border-radius: 10px;
     background-color: transparent;
-    border: 2px solid #FED777;
-    color: #FED777;
+    border: 2px solid #AAF0D1;
+    color: #AAF0D1;
     transition: all 1s;
 }
 

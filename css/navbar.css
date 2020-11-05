@@ -6,7 +6,7 @@
 
 /* Mobile Navbar */
 
-/* ========================================================================= wut? */
+/* ========================================================================= */
 
 #menu-hamburger {
   position: absolute;
@@ -109,7 +109,7 @@ ul li button {
 
 .openNavScreen-li:hover {
   cursor: pointer;
-  color: #FED777;
+  color: #AAF0D1;
 }
 
 .menu-btn:focus {
@@ -127,7 +127,7 @@ ul li button {
   width: 100%;
   top: 50%;
   left: 0%;
-  background-color: #FED777;
+  background-color: #AAF0D1;
 }
 
 .menu-btn_burger::before {
@@ -137,7 +137,7 @@ ul li button {
   width: 80%;
   top: 25%;
   left: 0%;
-  background-color: #FED777;
+  background-color: #AAF0D1;
 }
 
 #computer-menu-buttontext {
@@ -147,7 +147,7 @@ ul li button {
 }
 
 .fab, .fas {
-  color: #FED777;
+  color: #AAF0D1;
 }
 
 .fab:hover {

@@ -10,6 +10,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/shared.css"/>
+
     <link rel="stylesheet" href="./css/index-mobile.css">
     <link rel="stylesheet" href="./css/index-computer.css">
 
@@ -22,7 +23,7 @@
     <div id="mobile-wrapper">
 
       <div id="navbar-wrapper">
-        <span class="text-main" id="menu-hamburger" onclick="openNav()">&#9776;</span>
+        <span class="text-dshade" id="menu-hamburger" onclick="openNav()">&#9776;</span>
       </div>
 
       <div class="sidenav bg-faded content-center-vertical justify-content-around pt-5" id="navbar">
@@ -37,9 +38,12 @@
 
           <div class="h100vh w100p mobile-heroimage image-background-fixed greyscale content-center-vertical" id="section-herodiv">
 
-            <h1 class="text-main">Business Name</h1>
-            <p class="text-light">Some Sample Text Could Go Here Lad</p>
-            <button class="h5vh w50vw button mt-5" id="mobile-herobutton"><a href="./contact.html">Contact Us</a></button>
+            <div class="content-center-vertical bg-faded p-5" id="mobile-textwrapper">
+              <h1 class="text-main">Business Name</h1>
+              <p class="text-light">Some Sample Text Could Go Here Lad</p>
+              <button class="h5vh w50vw button mt-5" id="mobile-herobutton"><a href="./contact.html">Contact Us</a></button>
+            </div>
+            
 
           </div>
 
@@ -87,7 +91,7 @@
               </div>
   
             </div>
-            
+
           </div>
 
 <!-- ===================================================================================================================================================== -->
@@ -123,7 +127,7 @@
 
           <div class="h65vh"></div>
 
-          <div class="content-center-vertical" id="menu-icon-wrapper">
+          <div class="content-center-vertical">
 
               <li class="menu-icon"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
               <li class="menu-icon"><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -215,17 +219,21 @@
       </div>
   
       
-      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="300"  id="computer-project-movingimg-1"></div>
-      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="500"  id="computer-project-movingimg-2"></div>
-      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="700"  id="computer-project-movingimg-3"></div>
-      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="900"  id="computer-project-movingimg-4"></div>
-      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="1100" id="computer-project-movingimg-5"></div>
-      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="1300" id="computer-project-movingimg-6"></div>
-      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="300"  id="computer-project-movingimg-7"></div>
-      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="500"  id="computer-project-movingimg-8"></div>
-      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="700"  id="computer-project-movingimg-9"></div>
-      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="900"  id="computer-project-movingimg-10"></div>
-      <div class="h5p w50p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-down" data-aos-delay="1100" id="computer-project-movingimg-11"></div>
+      <div class="h55vh w55vw" id="computer-project-movingimg-wrapper">
+
+        <div class="h10p w80p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-right" data-aos-delay="500"  id="computer-project-movingimg-1"></div>
+        <div class="h10p w88p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-right" data-aos-delay="600"  id="computer-project-movingimg-2"></div>
+        <div class="h10p w80p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-right" data-aos-delay="700"  id="computer-project-movingimg-3"></div>
+        <div class="h10p w88p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-right" data-aos-delay="800"  id="computer-project-movingimg-4"></div>
+        <div class="h10p w80p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-right" data-aos-delay="900"  id="computer-project-movingimg-5"></div>
+        <div class="h10p w88p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-right" data-aos-delay="1000" id="computer-project-movingimg-6"></div>
+        <div class="h10p w92p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-right" data-aos-delay="1100" id="computer-project-movingimg-7"></div>
+        <div class="h10p w88p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-right" data-aos-delay="1200" id="computer-project-movingimg-8"></div>
+        <div class="h10p w80p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-right" data-aos-delay="1300" id="computer-project-movingimg-9"></div>
+        <div class="h10p w88p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-right" data-aos-delay="1400" id="computer-project-movingimg-10"></div>
+        <div class="h10p w92p my-3 computer-project-movingimg image-background-fixed" data-aos="fade-right" data-aos-delay="1500" id="computer-project-movingimg-11"></div>
+
+      </div>
 
     </div>
 
@@ -255,12 +263,12 @@
     </div>
 
     <footer class="h50vh bg-lshade">
-      <div class="h10vh w100p content-center">
-          <h6 class="text-main">Stay In Touch With Us On All Our Socials!</h6>
+      <div class="h10vh w100p d-flex justify-content-around align-items-center">
+          <h6 class="text-main align-self-center">Stay In Touch With Us On All Our Socials!</h6>
           <div class="h5p content-center justify-content-around" id="socialmediaWrapper">
-              <i class="mx-4 fab text-1 fa-facebook-f"></i>
-              <i class="mx-4 fab text-1 fa-instagram"></i>
-              <i class="mx-4 fab text-1 fa-twitter"></i>
+              <a href="#"><i class="mx-4 fab text-main fa-facebook-f"></i></a> 
+              <a href="#"><i class="mx-4 fab text-main fa-instagram"></i></a> 
+              <a href="#"><i class="mx-4 fab text-main fa-twitter"></i></a>
           </div>
       </div>
 
@@ -314,33 +322,3 @@
 
 </body>
 </html>
-
-
-
-
-<!-- Old Navbar -->
-
-<!-- <div class="pos-f-t">
-
-  <div class="collapse" id="navbarToggleExternalContent">
-
-    <div class="h100vh bg-lshade">
-
-      <ul class="h100p w100p content-center-vertical justify-content-around padding-none" id="mobile-navlinks">
-          <a class="text-main mb-5" href="./index.html">Home</a>
-          <a class="text-main mb-5" href="#">Projects</a>
-          <a class="text-main mb-5" href="#">Testimonials</a>
-          <a class="text-main mb-5" href="#">Testimonials</a>
-          <a class="text-main mb-5" href="#">Testimonials</a>
-      </ul>
-
-    </div>
-
-  </div>
-
-  <nav class="navbar navbar-dark bg-daccent" id="mobile-navbar">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </nav>
-</div> -->
