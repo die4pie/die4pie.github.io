@@ -1,0 +1,29 @@
+.hero {
+    background-image: url('../img/own/35.jpg');
+}
+
+span {
+    color: #CCA377;
+}
+
+.gallery-head {
+    min-height: 80vh;
+    min-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10rem;
+    background-color: #222222;
+
+}
+
+iframe {
+    height: 33rem;
+    width: 25vw;
+    flex: 1 1 auto;
+    margin: 3rem;
+    border: none;
+    border-radius: 2rem;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
