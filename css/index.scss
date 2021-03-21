@@ -1,0 +1,182 @@
+@import "global";
+
+
+.hero-section {
+    overflow-y: hidden;
+}
+
+.hero-content-wrapper {
+    position: relative;
+    top: 45%;
+    height: 50vh;
+    text-align: center;
+    @include flex(space-around, center, column);
+}
+
+#hero-mascot {
+    position: relative;
+    left: 5%;
+}
+
+#arrow {
+    opacity: 0;
+    animation: arrow 2.5s ease infinite;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 0;
+        transform: translateY(0%);
+    }
+    50% {
+        opacity: 1;
+        
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(300%);
+    }
+}
+
+.service-section {
+    min-height: 125vh;
+}
+
+#service-mascot {
+    position: relative;
+    top: -5%;
+}
+
+.gold-hr {
+    position: relative;
+    left: 50%;
+    width: 70%;
+    border: 1px solid $accent;
+    transform: translateX(-50%);
+    margin: 1rem 0rem;
+}
+
+.service-text-wrapper {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 0% 10%;
+    @include flex(space-around, center, column);
+}
+
+.service-wrapper {
+    width: 50%;
+}
+
+// -- 768px --
+
+@media (min-width: 768px) {
+    
+    h1, h2 {
+        font-size: 2.5rem;
+    }
+    
+    p {
+        font-size: 1.5rem;
+        text-align: start;
+    }
+    
+    a {
+
+        font-size: 3rem;
+    }
+
+    .service-wrapper {
+        margin: 2rem 0;
+    }
+
+    #service-mascot {
+        top: 0%;
+    }
+
+    .nav-content-wrapper {
+        height: 65%;
+    }
+
+    #nav-menu-mascot {
+        left: 0.5%;
+    }
+
+
+}
+
+//  -- 1024px --
+@media (min-width: 1024px) {
+    
+    h1, h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+    
+    a {
+
+        font-size: 3rem;
+    }
+
+    .scaled-down {
+        transform: scale(1);
+    }
+
+    .hero-section {
+        background: $bg_gradient;
+    }
+
+    .hero-content-wrapper {
+        @include flex(space-around, center, row);
+        @include center_r();
+    }
+
+    #hero-mascot {
+        transform: scale(1.333);
+        @include position_a(75%, 75%);
+    }
+
+    #arrow {
+        display: none;
+    }
+
+    .service-section {
+        min-height: 20vh;
+    }
+
+    .service-text-wrapper {
+        height: 50%;
+        flex-wrap: wrap;
+        @include flex(space-around, center, row);
+        @include position_r(25%, 0%);
+    }
+
+    .service-wrapper {
+        flex-basis: 50%;
+        text-align: start;
+        @include position_r(0%, 15%);
+
+
+        h1, hr, p {
+            left: 0;
+            width: 399px;
+            
+        }
+
+        hr {
+            width: 25%;
+            transform: translate(0%);
+        }
+    }
+    
+    #service-wrapper-2 {
+        width: 444px;
+    }
+
+    #service-mascot {
+        @include position_a(77%, 77%);
+    }
+}
